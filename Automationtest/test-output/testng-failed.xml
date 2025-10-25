@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testnew.Login">
+      <class name="testnew.Home">
         <methods>
-          <include name="verifyLoginWithValidUservalidPass"/>
-          <include name="verifyLoginWithValidUserInvalidPass"/>
-          <include name="verifyInvalidLogin"/>
-          <include name="verifyLoginWithinValidUservalidPass"/>
           <include name="setup"/>
+          <include name="verifyResumeUpload" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="verifyLoginWithBlankcredentials"/>
         </methods>
-      </class> <!-- testnew.Login -->
+      </class> <!-- testnew.Home -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

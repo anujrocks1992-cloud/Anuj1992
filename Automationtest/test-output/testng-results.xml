@@ -2,72 +2,132 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-12T16:15:58 IST" name="Default suite" finished-at="2025-10-12T16:16:27 IST" duration-ms="28660">
+  <suite started-at="2025-10-24T19:02:22 IST" name="Default suite" finished-at="2025-10-24T19:03:47 IST" duration-ms="85145">
     <groups>
     </groups>
-    <test started-at="2025-10-12T16:15:58 IST" name="Default test" finished-at="2025-10-12T16:16:27 IST" duration-ms="28660">
-      <class name="testnew.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:15:58 IST" name="setup" finished-at="2025-10-12T16:16:01 IST" duration-ms="2948" status="PASS">
+    <test started-at="2025-10-24T19:02:22 IST" name="Default test" finished-at="2025-10-24T19:03:47 IST" duration-ms="85145">
+      <class name="testnew.Home">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:22 IST" name="setup" finished-at="2025-10-24T19:02:27 IST" duration-ms="4344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyInvalidLogin()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:01 IST" name="verifyInvalidLogin" description="verify login with invalid username and invalid password" finished-at="2025-10-12T16:16:06 IST" duration-ms="4290" status="PASS">
+        <test-method signature="verifyFirstJobTitle(java.lang.String,java.lang.String)[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:27 IST" name="verifyFirstJobTitle" description="verify the page title" data-provider="dataset" finished-at="2025-10-24T19:02:42 IST" duration-ms="15476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asaxenaanuj.1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anuj@30491442]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:06 IST" name="teardown" finished-at="2025-10-12T16:16:06 IST" duration-ms="208" status="PASS">
+        </test-method> <!-- verifyFirstJobTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:42 IST" name="teardown" finished-at="2025-10-24T19:02:42 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:06 IST" name="setup" finished-at="2025-10-12T16:16:08 IST" duration-ms="2317" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:42 IST" name="setup" finished-at="2025-10-24T19:02:46 IST" duration-ms="3824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidUserInvalidPass()[pri:1, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:08 IST" name="verifyLoginWithValidUserInvalidPass" description="verify login with valid username and invalid password" finished-at="2025-10-12T16:16:10 IST" duration-ms="2265" status="PASS">
+        <test-method signature="verifyLogout(java.lang.String,java.lang.String)[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:46 IST" name="verifyLogout" description="Verify Logout functionality" data-provider="dataset" finished-at="2025-10-24T19:02:54 IST" duration-ms="7848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asaxenaanuj.1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anuj@30491442]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidUserInvalidPass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:10 IST" name="teardown" finished-at="2025-10-12T16:16:11 IST" duration-ms="153" status="PASS">
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:54 IST" name="teardown" finished-at="2025-10-24T19:02:54 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:11 IST" name="setup" finished-at="2025-10-12T16:16:13 IST" duration-ms="2194" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:54 IST" name="setup" finished-at="2025-10-24T19:02:57 IST" duration-ms="2743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithinValidUservalidPass()[pri:2, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:13 IST" name="verifyLoginWithinValidUservalidPass" description="verify login with invalid username and valid password" finished-at="2025-10-12T16:16:15 IST" duration-ms="2246" status="PASS">
+        <test-method signature="verifySaveJobs(java.lang.String,java.lang.String)[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:02:57 IST" name="verifySaveJobs" description="verify the save jobs" data-provider="dataset" finished-at="2025-10-24T19:03:11 IST" duration-ms="13562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asaxenaanuj.1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anuj@30491442]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithinValidUservalidPass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:15 IST" name="teardown" finished-at="2025-10-12T16:16:15 IST" duration-ms="162" status="PASS">
+        </test-method> <!-- verifySaveJobs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:11 IST" name="teardown" finished-at="2025-10-24T19:03:11 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:15 IST" name="setup" finished-at="2025-10-12T16:16:18 IST" duration-ms="2502" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:11 IST" name="setup" finished-at="2025-10-24T19:03:15 IST" duration-ms="4112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithBlankcredentials()[pri:3, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:18 IST" name="verifyLoginWithBlankcredentials" description="verify login with blank credentials" finished-at="2025-10-12T16:16:22 IST" duration-ms="4256" status="PASS">
+        <test-method signature="verifyTheBasicJobSearch(java.lang.String,java.lang.String)[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:15 IST" name="verifyTheBasicJobSearch" description="Verify The Basic Job Search" data-provider="dataset" finished-at="2025-10-24T19:03:27 IST" duration-ms="12363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asaxenaanuj.1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anuj@30491442]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithBlankcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:22 IST" name="teardown" finished-at="2025-10-12T16:16:22 IST" duration-ms="167" status="PASS">
+        </test-method> <!-- verifyTheBasicJobSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:27 IST" name="teardown" finished-at="2025-10-24T19:03:28 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:22 IST" name="setup" finished-at="2025-10-12T16:16:25 IST" duration-ms="2434" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:28 IST" name="setup" finished-at="2025-10-24T19:03:33 IST" duration-ms="5431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidUservalidPass()[pri:4, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:25 IST" name="verifyLoginWithValidUservalidPass" description="verify login with valid username and valid password" finished-at="2025-10-12T16:16:27 IST" duration-ms="2251" status="PASS">
+        <test-method signature="verifyTheBasicJobSearchUsingLoc(java.lang.String,java.lang.String)[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:33 IST" name="verifyTheBasicJobSearchUsingLoc" description="Verify The Basic Job Search using location keyword" data-provider="dataset" finished-at="2025-10-24T19:03:47 IST" duration-ms="14101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asaxenaanuj.1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anuj@30491442]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidUservalidPass -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Login@10a9d961]" started-at="2025-10-12T16:16:27 IST" name="teardown" finished-at="2025-10-12T16:16:27 IST" duration-ms="213" status="PASS">
+        </test-method> <!-- verifyTheBasicJobSearchUsingLoc -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testnew.Home@5ba88be8]" started-at="2025-10-24T19:03:47 IST" name="teardown" finished-at="2025-10-24T19:03:47 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testnew.Login -->
+      </class> <!-- testnew.Home -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
