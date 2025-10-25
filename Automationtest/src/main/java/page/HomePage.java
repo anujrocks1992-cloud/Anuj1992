@@ -22,7 +22,7 @@ public class HomePage {
 	WebElement pass;
 	@FindBy(xpath = "//button[normalize-space()='Login']")
 	WebElement loginButton;
-	@FindBy(xpath = "//span[@class=\"nI-gNb-sb__placeholder\"]")
+	@FindBy(xpath = "//span[@class='nI-gNb-sb__placeholder']")
 	WebElement searchbox;
 	@FindBy(xpath = "//input[@placeholder=\"Enter keyword / designation / companies\"]")
 	WebElement SuggestionSearch;
